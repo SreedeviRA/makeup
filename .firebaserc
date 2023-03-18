@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "smiles-e3006": {
+      "hosting": {
+        "happysmiles": [
+          "smiles-e3006"
+        ]
+      }
+    },
+    "makeup-31f9d": {
+      "hosting": {
+        "happysmiles": [
+          "makeup-31f9d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "makeup-31f9d"
+  }
+}

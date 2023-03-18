@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of lipstick">
+        <div class="card" >
+          <img src="{{item.image}}" class="card-img-top" height="350" width="350">
+          <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <h3 class="card-text">{{item.price}}</h3>
+            <a (click)="gotoHere(item.id)"  class="btn btn-primary " >View Product </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
